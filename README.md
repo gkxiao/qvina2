@@ -12,6 +12,8 @@ a python script to use qvina2 as docking engine to run virtual screening against
 put the qvina.py,qvina2_vs_slurm.py and qvina2 in ~/bin which is availabe in $PATH
 
 # usage
+step 1. generate slurm batch file
+<code>
 python ~/bin/qvina2_vs_slurm.py -h
 
 usage: qvina2_vs_slurm.py [-h] receptor dbase configure_file output prefix
@@ -27,3 +29,8 @@ positional arguments:
 
 optional arguments:
   -h, --help      show this help message and exit
+</code>  
+
+step 2. submit slurm job
+
+sbatch -N 1 -c 1 <job file>
