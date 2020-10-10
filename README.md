@@ -15,7 +15,8 @@ put the qvina.py,qvina2_vs_slurm.py and qvina2 in ~/bin which is availabe in $PA
 step 1. generate slurm batch file
 <pre line="1" lang="shell">
 python ~/bin/qvina2_vs_slurm.py -h
-
+</pre>
+<pre line="1" lang="shell">
 usage: qvina2_vs_slurm.py [-h] receptor dbase configure_file output prefix
 
 VS Using QuickVina2
