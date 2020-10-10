@@ -32,6 +32,12 @@ optional arguments:
   -h, --help      show this help message and exit
 </pre>  
 
+<pre line="1" lang="shell">
+git clone https://github.com/gkxiao/qvina2.git
+cd qvina2
+python ~/bin/qvina2_vs_slurm.py 4no7_prot.pdbqt dbase.sdf config.txt qvina_vs
+</pre>
+
 step 2. submit slurm job
 <pre line="1" lang="shell">
 sbatch -N 1 -c 1 qvina_vs.sbatch
