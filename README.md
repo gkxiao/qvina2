@@ -33,5 +33,5 @@ optional arguments:
 
 step 2. submit slurm job
 <pre line="1" lang="shell">
-sbatch -N 1 -c 1 <job file>
+sbatch -N 1 -c 1 qvina_vs.sbatch
 </pre>
