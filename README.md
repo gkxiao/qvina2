@@ -32,5 +32,6 @@ optional arguments:
 </pre>  
 
 step 2. submit slurm job
-
+<pre line="1" lang="shell">
 sbatch -N 1 -c 1 <job file>
+</pre>
