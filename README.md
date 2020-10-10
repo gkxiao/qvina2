@@ -8,10 +8,10 @@ a python script to use qvina2 as docking engine to run virtual screening against
 4. Openbabel 2.4+ for python
 5. slurm scheduler
 
-# INSTALLATION
+# installation
 put the qvina.py,qvina2_vs_slurm.py and qvina2 in ~/bin which is availabe in $PATH
 
-#usage
+# usage
 python ~/bin/qvina2_vs_slurm.py -h
 
 usage: qvina2_vs_slurm.py [-h] receptor dbase configure_file output prefix
