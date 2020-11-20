@@ -9,7 +9,12 @@ a python script to use qvina2 as docking engine to run virtual screening against
 5. slurm scheduler
 
 # installation
-put the qvina.py,qvina2_vs_slurm.py and qvina2 in ~/bin which is availabe in $PATH
+download:
+<pre line="1" lang="shell">
+git clone https://github.com/gkxiao/qvina2.git
+</pre>
+installation:
+put the qvina.py,qvina2_vs_slurm.py and qvina2 in a directory (e.g. ~/bin) which is included in $PATH
 
 # usage
 step 1. generate slurm batch file
@@ -33,8 +38,6 @@ optional arguments:
 </pre>  
 
 <pre line="1" lang="shell">
-git clone https://github.com/gkxiao/qvina2.git
-cd qvina2
 python ~/bin/qvina2_vs_slurm.py 4no7_prot.pdbqt dbase.sdf config.txt qvina_vs
 </pre>
 
