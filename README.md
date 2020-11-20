@@ -45,8 +45,12 @@ sbatch -N 1 -c 1 qvina_vs.sbatch
 
 # CONVERT pdbqt docking pose into sdf file
 usage: 
+<pre line="1" lang="shell">
 python pdbqt_pose_2_sdf.py  -h 
+</pre>
 
 example：
+<pre line="1" lang="shell">
 python pdbqt_pose_2_sdf.py  PV-000071980170.pdbqt  PV-000071980170.sdf
+</pre>
 
