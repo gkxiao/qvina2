@@ -42,3 +42,11 @@ step 2. submit slurm job
 <pre line="1" lang="shell">
 sbatch -N 1 -c 1 qvina_vs.sbatch
 </pre>
+
+# CONVERT pdbqt docking pose into sdf file
+usage: 
+python pdbqt_pose_2_sdf.py  -h 
+
+example：
+python pdbqt_pose_2_sdf.py  PV-000071980170.pdbqt  PV-000071980170.sdf
+
